@@ -1,0 +1,286 @@
+        /*STYLING START HERE*/
+        
+        body {
+            /*font-family: ;*/
+            /*background-color: blue;*/
+            margin: 0;
+            padding: 0;
+            font-family: "Spinnaker", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #fff8dc;
+            background: #efeedc;
+        }
+        /*END OF BODY STYLES*/
+        /*FIRST DIV SECTION STYLING*/
+        
+        #div-cont {
+            background: url("./images/heroSquare.webp");
+            background-size: cover;
+            height: 70vh;
+            margin: 0;
+            padding: 0;
+            text-shadow: 0 0 5px black;
+        }
+        
+        .head-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .state {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .east {
+            margin: 0;
+            padding: 6px 3px;
+        }
+        
+        .welc {
+            margin-top: 25px;
+            margin-bottom: 0;
+            padding-bottom: 5px;
+        }
+        
+        .sec-h3 {
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        /*END OF FIRST DIV SECTION STYLES.*/
+        /*SECOND SECTION STYLING BEGINS*/
+        
+        #facts {
+            background: #c5c182;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            margin-top: 40px;
+            margin-bottom: 35px;
+            padding: 25px;
+            font-style: italic;
+            width: 65%;
+            height: 50vh;
+            border: 10px dotted wheat;
+            border-radius: 50px 5px 60px 7px;
+        }
+        
+        #facts h4 {
+            padding: 0 10px;
+            font-weight: 800;
+            font-size: 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #facts li {
+            margin: 0;
+            padding: 6px 0;
+        }
+        /*SECOND DIV STYLE ENDS HERE*/
+        /*THIRD SECTION STYLING BEGINS*/
+        
+        .famous-head {
+            color: black;
+            text-shadow: 0 0 5px whitesmoke;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        .famous-div {
+            background: #ffebcd;
+            width: 45%;
+            float: left;
+            color: black;
+            padding: 10px;
+            margin: 15px;
+            height: 55vh;
+            border: 3px groove #f2d1a9fc;
+            border-radius: 20px;
+        }
+        
+        .famous-div img {
+            width: 200px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        
+        .famous-div h6 {
+            text-align: center;
+            font-size: 18px;
+        }
+        
+        .famous-div p {
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        .space-marg {
+            margin-bottom: 60px;
+        }
+        /*END OF THIRD SECTION STYLING*/
+        /*FOURTH SECTION STYLING*/
+        
+        .famous_sites {
+            border: 3px outset dimgray;
+            border-radius: 20px;
+        }
+        
+        .famous_sites h6 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 120px;
+            color: white;
+            text-shadow: 0 0 5px black;
+            font-size: 15px;
+        }
+        
+        .famous_sites p {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: white;
+            text-shadow: 0 0 5px black;
+            font-size: 15px;
+        }
+        
+        #lake {
+            background: url("./images/oguta-lake.webp");
+            background-size: cover;
+        }
+        
+        #lake:hover {
+            background: url("./images/lake.jpeg");
+            background-size: cover;
+        }
+        
+        #zoo {
+            background: url("./images/nekede-zoo.webp");
+            background-size: cover;
+        }
+        
+        #zoo:hover {
+            background: url("./images/zoo.jpeg");
+            background-size: cover;
+        }
+        
+        #museum {
+            background: url("./images/national-museum.webp");
+            background-size: cover;
+        }
+        
+        #museum:hover {
+            background: url("./images/museum.jpeg");
+            background-size: cover;
+        }
+        
+        #mbari {
+            background: url("./images/mbari.webp");
+            background-size: cover;
+        }
+        
+        #mbari:hover {
+            background: url("./images/mbari-arts.jpeg");
+            background-size: cover;
+        }
+        
+        #ngwu {
+            background: url("./images/ngwu-springs.webp");
+            background-size: cover;
+        }
+        
+        #ngwu:hover {
+            background: url("./images/springs.jpeg");
+            background-size: cover;
+        }
+        
+        #rolling-hills {
+            background: url("./images/rolling-hills.webp");
+            background-size: cover;
+        }
+        
+        #rolling-hills:hover {
+            background: url("./images/rolling.jpeg");
+            background-size: cover;
+        }
+        /* END OF STYLING FOR SECTION FOUR */
+        /* FIFTH SECTION STYLING */
+        
+        .form {
+            width: 40%;
+            height: 100vh;
+            background: rgb(169, 126, 68);
+            color: bisque;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 40px;
+            border: 4px double #fcdcb4;
+            border-radius: 35px;
+        }
+        
+        .form img {
+            width: 130px;
+            border-radius: 50%;
+        }
+        
+        .form span {
+            margin: 10px 15px;
+            padding: 5px;
+        }
+        
+        .form p {
+            text-align: center;
+            margin-bottom: 0;
+        }
+        
+        .signUp {
+            margin: 20px 0;
+        }
+        
+        .signUp input {
+            margin: 5px 3px;
+            width: 300px;
+            line-height: 4.5vh;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .register_btn {
+            width: 200px;
+            line-height: 4vh;
+            display: block;
+            margin: 0 auto;
+            justify-content: center;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 13px;
+            color: #a97e44;
+        }
+        /* END OF SECTION FIVE STYLING */
+        /* LAST SECTION STYLING */
+        
+        .footer {
+            width: 99.88%;
+            line-height: 7vh;
+            color: black;
+            text-align: center;
+            background: rgb(211, 181, 126);
+            border: 2px ridge rgb(248, 224, 179);
+            margin: 0;
+            margin-top: 10px;
+            font-size: 20px;
+        }
